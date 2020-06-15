@@ -14,7 +14,7 @@ https 在 http的基础上增加
 
 1. 生成证书
 
-- openssl 下载安装 [windows](http://slproweb.com/products/Win32OpenSSL.html) [linux](https://www.openssl.org/)
+- openssl 下载安装 [windows](http://slproweb.com/products/Win32OpenSSL.html) [linux](https://www.openssl.org/) [中文手册](https://www.openssl.net.cn/)
 
 - 新建证书文件夹，执行指令
 
@@ -44,8 +44,8 @@ $ openssl rsa -in server.key -pubout -out server.pem
 2. 修改express入口文件
 
 
-```
-var options = {
+```JavaScript
+const options = {
     key:fs.readFileSync('./ca/server.key'),
     cert:fs.readFileSync('./ca/server.crt')
 }
