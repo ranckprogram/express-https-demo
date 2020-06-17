@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ranckprogram/express-https-demo#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "pem": "^1.14.4",
     "spdy": "^4.0.2"
   }
 }

@@ -52,3 +52,10 @@ const options = {
 
 ```
 
+## 原生nodejs HTTP2 升级 http2-base.js
+
+```
+openssl rsa -in server.key -text > private.pem
+openssl x509 -inform PEM -in server.crt > public.pem
+```
+
